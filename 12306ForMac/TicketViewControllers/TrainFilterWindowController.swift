@@ -217,8 +217,10 @@ class TrainFilterWindowController: BaseWindowController {
         
         filterItems.append(FilterItem(type: .Group,presentation: "席别类型"))
         filterItems.append(FilterItem(type: .SeatType,key:"9|P|4|6",presentation: "商务座|特等座|软卧|高级软卧",isChecked: false))
-        filterItems.append(FilterItem(type: .SeatType,key:"M|3",presentation: "一等座|硬卧",isChecked: false))
-        filterItems.append(FilterItem(type: .SeatType,key:"O|1",presentation: "二等座|硬座",isChecked: true))
+        filterItems.append(FilterItem(type: .SeatType,key:"M",presentation: "一等座",isChecked: false))
+        filterItems.append(FilterItem(type: .SeatType,key:"O",presentation: "二等座",isChecked: true))
+        filterItems.append(FilterItem(type: .SeatType,key:"3",presentation: "硬卧",isChecked: false))
+        filterItems.append(FilterItem(type: .SeatType,key:"1",presentation: "硬座",isChecked: false))
         filterItems.append(FilterItem(type: .SeatType,key:"1|O",presentation: "无座",isChecked: false))
         
         filterItems.append(FilterItem(type: .Group,presentation: "出发时段"))
